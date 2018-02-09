@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import Employee from './models/Employee';
+import Employee from "./models/Employee";
 
 // components
-import Header from './components/Header';
+import Header from "./components/Header";
 
 class App extends Component {
   // constructor
@@ -17,11 +17,10 @@ class App extends Component {
       <div id="app">
         <Header />
         <div className="main-container">
-          // render EmployeeList here
-          // render EmployeeEditor here
+          // render EmployeeList here // render EmployeeEditor here
         </div>
       </div>
-    )
+    );
   }
 }
 
